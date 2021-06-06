@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Banking System</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <!-- AOS  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+</head>
+<body onload="loader()">
+
+  <!-- loader for splash screen -->
+  <div id="loading"></div>
+
+    <!-- navbar starts here  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="./index.html">Sparks Bank</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">AboutUs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./customers.html">Customers</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <!-- navbar ends here  -->
+
+    <!-- here content starts here -->
+    <div class="container-fluid hero-content">
+      <div class="row align-items-center">
+        <div class="col-md-6 col-sm-12 text-center" data-aos="fade-up">
+          <h1>Money Transaction</h1>
+          <p class="lead muted">Easy Way To Transfer Money</p>
+          <p>Welcome To Sparks Bank</p>
+          <br>
+          <br>
+          <a class="get-started" href="./customers.html">Transfer Money</a>
+        </div>
+        <div class="col-md-6 col-sm-12 text-center" data-aos="fade-left">
+          <div class="hero-img-div">
+            <img class="hero-img" src="https://moneytransfers.com/wp-content/uploads/2020/02/transfer-money.png" alt="img-showing-money-transfer">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- here content ends here -->
+
+
+
+
+    <!-- footer starts here -->
+    <div class="footer" style="margin-top: 25px;">
+   <div class="container" id="Foodie">
+
+<h1 style="color:orangered;font-family: Lucida Handwriting; margin-top: 55px;font-size: 30px;font-weight: 500;  box-shadow:2px 6px 18px rgba(66,57,238,0.3);
+" ><b>Sparks Bank</b></h1>
+</div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <p style="color: white;font-size: 17px;margin-top: 30px;">Sparks Bank is the place<br>
+            where customers feel the sense of safety<br>
+            for their property. And also,In the bank,<br>
+            where customers can send the money<br>
+            in easy way..!Transaction of money is main<br>
+            part where customer takes shelter of the bank.<br>
+
+        </p>        
+      </div>
+      <div class="col-sm-6">
+              <h3 style="color: white;color: red;">My Adress</h3>
+              <p style="color: white;font-size: 17px;">
+                Kurnool dist.,Andhra Pradesh<br>
+                518543
+              </p>
+        <p style="color: white;font-size: 17px;">Email:gadhamsetty0@gmail.com</p>
+          <a href="file:///C:/Users/lenovo/Documents/Basic%20Bank%20Management%20System/aboutus.html" class="btn btn-danger btn-lg">About Sparks Bank</a>
+
+         <h3 style="color: white;color: red">Follow Me</h3><br>
+         <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="https://www.linkedin.com/in/sai-varshith-0a456620b/" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-instagram"></a>
+
+      </div>
+      
+    </div>
+
+    
+  </div>
+  
+</div>
+    <!-- footer ends here -->
+
+    <!-- spalsh screen js -->
+    <script>
+      var preloader = document.getElementById("loading");
+      function loader(){
+        preloader.style.display = 'none';
+      }
+    </script>
+
+    <script src="assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"></script>
+
+    <!-- aos data  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 700,
+      });
+    </script>
+    
+</body>
+</html>
